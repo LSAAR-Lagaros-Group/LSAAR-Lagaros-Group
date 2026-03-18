@@ -1,0 +1,66 @@
+📜 LSAAR Laboratory Contribution & Policy Guidelines
+Welcome to the LSAAR Research Group. To ensure research reproducibility, code quality, and efficient collaboration, all members (PhD and MSc students) must adhere to the following guidelines.
+
+1. Repository Naming Conventions
+Every new project must follow our standardized naming prefix:
+
+opt-: For projects primarily focused on Structural Optimization.
+
+ai-: For projects primarily focused on Artificial Intelligence / Machine Learning.
+
+core-: For shared libraries, tools, or documentation used by the entire lab.
+
+Example: ai-seismic-damage-detection or opt-truss-topology-optimization.
+
+2. Standardized Folder Structure
+To keep our workspace clean, every repository should use the following directory layout:
+
+/src: All source code (scripts, classes, modules).
+
+/data: Small datasets and sample files (CSV, JSON).
+
+/notebooks: Jupyter notebooks or experimental scripts.
+
+/docs: Research notes, papers (LaTeX), and presentations.
+
+/results: Output logs, figures, and trained model weights.
+
+3. Data Management & File Size Limits
+GitHub is not a storage drive for raw big data.
+
+Strict Limit: Never upload individual files larger than 50MB.
+
+Hard Block: GitHub will reject any file over 100MB.
+
+Solution: For large datasets, upload them to the lab's official Cloud/Server and provide a download link or a download_data.sh script in your repository.
+
+4. Reproducibility & Environments
+A project is only complete if someone else can run it.
+
+Every repository must include a dependency file:
+
+requirements.txt (for pip/Python)
+
+environment.yml (for Conda)
+
+Project.toml (for Julia)
+
+Include a README.md with clear instructions on how to set up and run the code.
+
+5. Git Best Practices
+Commit Often: Push your progress at least once a week to ensure a cloud backup of your research.
+
+Meaningful Messages: Avoid messages like "update" or "fix". Use descriptive titles like "Added Adam optimizer to the AI model".
+
+Branching: Use branches for new experiments to keep the main branch stable.
+
+6. Offboarding
+Before completing your degree or leaving the lab:
+
+Ensure all your code is pushed to the LSAAR Organization.
+
+Update your documentation so the next researcher can continue your work.
+
+Notify the Lab Administrator ([Your Name]) to archive your repository.
+
+For any technical issues or access requests, contact the Lab Administrator.
